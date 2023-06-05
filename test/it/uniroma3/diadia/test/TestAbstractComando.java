@@ -26,12 +26,12 @@ class TestAbstractComando {
 	void setUp() throws Exception {
 		scanner = new Scanner(System.in);
 		io = new IOConsole(scanner);
-		comandoAiuto = new FabbricaDiComandiRiflessiva().costruisciComando("aiuto", io, scanner);
-		comandoVai = new FabbricaDiComandiRiflessiva().costruisciComando("vai nord", io, scanner);
-		comandoPrendi = new FabbricaDiComandiRiflessiva().costruisciComando("prendi osso", io, scanner);
-		comandoPosa = new FabbricaDiComandiRiflessiva().costruisciComando("posa osso", io, scanner);
-		comandoFine = new FabbricaDiComandiRiflessiva().costruisciComando("fine", io, scanner);
-		comandoGuarda = new FabbricaDiComandiRiflessiva().costruisciComando("guarda", io, scanner);
+		comandoAiuto = new FabbricaDiComandiRiflessiva().costruisciComando("aiuto", io);
+		comandoVai = new FabbricaDiComandiRiflessiva().costruisciComando("vai nord", io);
+		comandoPrendi = new FabbricaDiComandiRiflessiva().costruisciComando("prendi osso", io);
+		comandoPosa = new FabbricaDiComandiRiflessiva().costruisciComando("posa osso", io);
+		comandoFine = new FabbricaDiComandiRiflessiva().costruisciComando("fine", io);
+		comandoGuarda = new FabbricaDiComandiRiflessiva().costruisciComando("guarda", io);
 	}
 
 	@AfterEach
