@@ -1,0 +1,9 @@
+Stanze: biblioteca, N10, N11
+Inizio: N10
+Vincente: N11
+Bloccata: bloccata sud chiave
+Magica: magica 2
+Buia: buia lanterna
+Attrezzi: martello 10 biblioteca, pinza 2 N10, chiave 1 bloccata, lanterna 1 buia
+Uscite: biblioteca nord N10, N10 sud biblioteca, biblioteca sud N11, N11 nord biblioteca, biblioteca ovest buia, buia est biblioteca, buia sud bloccata, bloccata nord buia, bloccata sud magica, magica nord bloccata
+Personaggi: mago N10 regalo 1, cane N11, strega biblioteca
